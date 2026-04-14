@@ -8,7 +8,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api/uploads': {
-        target: 'http://localhost:5000',
+        target: 'https://developer-blogging-site.onrender.com',
         changeOrigin: true,
       },
     },
