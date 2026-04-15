@@ -23,7 +23,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:5174'],
+  origin: ['https://developer-blogging-site.vercel.app/'],
   credentials: true,
   allowedHeaders: ['Content-Type', 'Authorization'],
 }));
